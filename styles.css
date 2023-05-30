@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;600;700;800;900&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red hat display";
+
+
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  
+}
+
+body {
+  background-color: black;
+}
+
+.container {
+  width: 375px;
+  background-color: white;
+}
+
+
+.meet {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 51px;
+}
+
+.photos {
+  margin-top: 56px;
+}
+
+p {
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 4px;
+  margin-left: 50px;
+  color: #4D96A9;
+  margin-bottom: 24px;
+
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 44px;
+  text-align: center;
+  color: #28283D;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #87879D;
+}
+
+.firsttext {
+  width: 327px;
+  height: 78px;
+  margin: auto;
+  margin-top: 48px;
+  margin-bottom: 24px;
+}
+
+.secondtext{
+
+  margin: auto;
+  margin-bottom: 32px;
+  width: 327px;
+  height: 78px;
+
+}
+
+button {
+  border-radius: 29px;
+  height: 58px;
+  border: none;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 900;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.firstbutton {
+  background-color: #4D96A9;
+  width: 193px;
+  color: white;
+  margin: auto;
+  
+}
+
+.secondbutton {
+  width: 139px;
+  background-color: #855FB1;
+  text-align: center;
+  margin: auto;
+  margin-top: 16px;
+  color: white;
+}
+
+.downloadtext {
+  color: #8FE3F9;
+}
+
+.line {
+  width: 1px;
+  height: 84px;
+  background-color: black;
+  margin: auto;
+  margin-top: 64px;
+  opacity: 0.2;
+}
+
+.circle {
+  width: 56px;
+  height: 56px;
+  background: #FAFAFA;
+  border: 1px solid rgba(135, 135, 157, 0.25);
+  border-radius: 29px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  
+  
+  
+
+}
+
+.fourpictures {
+  margin-top: 94px;
+  width: 327px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 56px;
+}
+
+.midonetext {
+  width: 327px;
+  height: 72px;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 900;
+  display: flex;
+  margin: auto;
+  margin-bottom: 32px;
+
+}
+
+.midsecondtext {
+  width: 327px;
+  height: 130px;
+  text-align: center;
+  display: flex;
+  margin: auto;
+
+}
+
+.secondline {
+  margin-top: 64px;
+}
+
+.background {
+  background-image: url(./assets/Bitmap\ \(1\).svg);
+  background-repeat: no-repeat;
+  width: 375px;
+  height: 428px;
+  margin-top: 25px;
+}
+
+.lastonetext{
+  color: white;
+  position: relative;
+  top: 79px;
+  width: 327px;
+  height: 72px;
+  line-height: 36px;
+  font-size: 32px;
+  display: flex;
+  margin: auto;
+}
+
+.lastsecondtext {
+  color: white;
+  position: relative;
+  top: 120px;
+  font-weight: 500;
+  width: 327px;
+  height: 78px;
+  line-height: 26px;
+  text-align: center;
+  display: flex;
+  margin: auto;
+  font-size: 18px;
+  
+}
+
+.lastdownloadtext {
+
+  width: 193px;
+  height: 58px;
+  background-color: #855FB1;
+  color: white;
+  position: relative;
+  top: 150px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  
+
+
+
+}
+
+.seconddownloadtext {
+
+  color: #D9B8FF;
+  
+
+}
+
+.tabletfirtphoto{
+  display: none;
+}
+
+.secondtabletphoto {
+  display: none;
+}
+
+.firstdesktopphoto {
+  display: none;
+}
